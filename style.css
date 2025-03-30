@@ -52,11 +52,10 @@ nav.navbar ul a {
 main {
   height: 1000px;
   position: relative;
-
   background: url("/assets/accountant4-slider-pic3.webp"),
     url("/assets/accountan4-section-bg1.png");
   background-size: contain, contain;
-  background-position: 85% 120px;
+  background-position: 100% 99px;
   background-repeat: no-repeat;
   background-color: var(--primary-color);
   position: relative;
@@ -75,11 +74,11 @@ div.hero {
 }
 div.hero h4 {
   color: white;
-  font-size: 20px;
+  font-size: -17px;
 }
 div.hero h2 {
-  font-size: 70px;
-  width: 63%;
+  font-size: 59px;
+  width: 62%;
   color: white;
 }
 div.hero h2 span {
@@ -98,10 +97,10 @@ div.right-arrow {
   justify-content: center;
 }
 div.two-customers {
-  gap: 50px;
+  gap: 30px;
   display: flex;
   padding-top: 180px;
-  margin-left: 200px;
+  margin-left: 78px;
 }
 div.first-customer,
 div.second-customer {
@@ -112,7 +111,7 @@ div.second-customer {
   font-weight: 500;
   font-size: 18px;
   border-radius: 10px;
-  padding-right: 40px;
+  /* padding-right: 40px; */
 }
 
 div.two-customers p {
