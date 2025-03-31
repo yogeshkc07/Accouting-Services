@@ -438,3 +438,54 @@ div.footer {
 .footer p {
   color: var(--text-light-color);
 }
+/* about us */
+.aboutus {
+  background: url("/assets/accountan4-section-bg2.webp");
+  background-color: var(--primary-color);
+  background-position: 10%;
+  height: 600px;
+  width: 45%;
+  position: relative;
+}
+.aboutus::after {
+  content: "";
+  width: 122%;
+  background: url("/assets/accountan4-about-bg.webp");
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+.about-flex {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.about-flex p {
+  color: white;
+  font-size: 24px;
+  width: 40%;
+}
+.about-flex h3 {
+  font-size: 40px;
+  width: 40%;
+  line-height: 55px;
+  color: white;
+}
+.subheader-icon {
+  position: absolute;
+  bottom: -32px;
+  left: 173px;
+}
+/* about us second section */
+.about-second {
+  margin: 100px auto;
+  display: flex;
+}
+.about-second-left {
+  display: flex;
+  flex-direction: column;
+}
