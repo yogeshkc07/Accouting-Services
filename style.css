@@ -3,6 +3,8 @@
 * {
   margin: 0;
   padding: 0;
+
+  color: #343434;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
@@ -206,7 +208,7 @@ section.ullamcorper {
   height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 
 .flex-four ul {
@@ -227,7 +229,7 @@ section.ullamcorper {
   height: 260px;
   align-items: center;
   border: 1px solid white;
-
+  border-radius: 0 10px 10px 10px;
   justify-content: center;
 }
 .flex-four h3 {
@@ -249,4 +251,190 @@ section.ullamcorper {
 }
 .flex-four li:first-child {
   background-color: white;
+}
+/* proin section */
+.proin {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+.proin h3 {
+  font-size: 50px;
+  width: 45%;
+  line-height: 60px;
+  font-weight: 500;
+}
+.proin h3 span {
+  color: var(--primary-color);
+}
+ul.three-flex {
+  display: flex;
+  gap: 50px;
+}
+ul.three-flex li {
+  width: 33%;
+}
+ul.three-flex img {
+  width: 100%;
+}
+div.proin-top {
+  display: flex;
+  justify-content: space-between;
+}
+ul.three-flex p:first-of-type {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+ul.three-flex p:last-of-type {
+  color: var(--text-light-color);
+  font-size: 15px;
+}
+section.accountants {
+  height: 700px;
+  background: url("/assets/accountan4-section-bg2.webp");
+  background-color: var(--primary-color);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0%;
+}
+div.account-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+div.accountant-description {
+  width: 45%;
+}
+div.accountant-pic {
+  display: flex;
+  width: 65%;
+  flex-direction: row-reverse;
+  gap: 50px;
+}
+div.accountant-pic img {
+  width: 50%;
+}
+.accountant-description {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.accountant-description h3 {
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.accountant-description p {
+  width: 80%;
+  color: white;
+}
+button.about-us {
+  width: max-content;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+}
+footer {
+  background-color: rgb(237 242 244);
+  height: 900px;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-left img {
+  width: 100px;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.footer-content h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.footer-content h4 {
+  font-size: 22px;
+  text-align: center;
+}
+.footer-content h4 span {
+  color: var(--primary-color);
+}
+button.consultation {
+  width: max-content;
+  background-color: transparent;
+  font-size: 16px;
+}
+.footer-content p {
+  color: var(--text-light-color);
+  margin-top: -10px;
+}
+.footer-flex {
+  display: flex;
+  margin-top: 180px;
+  gap: 40px;
+}
+.footer-left {
+  width: 50%;
+}
+.footer-left-content {
+  display: flex;
+}
+.footer-left-content h3 {
+  text-transform: uppercase;
+  line-height: 25px;
+  margin-left: -15px;
+}
+.footer-left-content span {
+  color: var(--primary-color);
+  display: block;
+}
+.footer-left-content img {
+  margin-left: -20px;
+}
+.footer-flex p {
+  font-size: 15px;
+  color: var(--text-light-color);
+  margin-top: 20px;
+  font-weight: 500;
+}
+.footer-middle {
+  flex-direction: column;
+  width: 20%;
+  display: flex;
+}
+.footer-middle h5 {
+  font-size: 23px;
+  margin-bottom: 16px;
+}
+.footer-middle p,
+.footer-right p {
+  line-height: 5px;
+}
+.footer-right h5 {
+  font-size: 23px;
+  color: #343434;
+
+  margin-bottom: 26px;
+}
+.footer-right {
+  width: 30%;
+}
+div.footer {
+  margin-top: 150px;
+
+  align-self: start;
+}
+.footer p {
+  color: var(--text-light-color);
 }
