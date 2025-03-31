@@ -444,12 +444,12 @@ div.footer {
   background-color: var(--primary-color);
   background-position: 10%;
   height: 600px;
-  width: 45%;
+  width: 50%;
   position: relative;
 }
 .aboutus::after {
   content: "";
-  width: 122%;
+  width: 100%;
   background: url("/assets/accountan4-about-bg.webp");
   height: 600px;
   position: absolute;
@@ -484,8 +484,105 @@ div.footer {
 .about-second {
   margin: 100px auto;
   display: flex;
+  gap: 20px;
 }
 .about-second-left {
   display: flex;
   flex-direction: column;
+  width: 50%;
+}
+.about-second-left h4 {
+  font-size: 26px;
+  width: 90%;
+  padding-bottom: 31px;
+}
+div.small-line {
+  width: 30%;
+  height: 2px;
+
+  background-color: var(--primary-color);
+}
+
+.about-second-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.about-second-right p {
+  color: var(--text-light-color);
+  font-size: 15px;
+}
+section.our-accountants {
+  background-color: rgb(237 242 244);
+}
+
+section.our-accountants {
+  padding-top: 100px;
+}
+div.about-accountants {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-bottom: 100px;
+}
+div.about-accountants h2 {
+  font-size: 40px;
+}
+div.about-accountants h2 span {
+  color: var(--primary-color);
+}
+div.about-accountants .image1 {
+  height: 600px;
+  width: 500px;
+}
+div.about-accountants .image1 img {
+  width: 100%;
+  height: 100%;
+}
+div.image-container1 {
+  display: flex;
+  gap: 70px;
+}
+div.image-content {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  height: 550px;
+  background-color: white;
+  padding-left: 80px;
+  border-radius: 10px;
+}
+div.image-content h3 {
+  font-size: 32px;
+}
+div.image-content p {
+  color: var(--text-light-color);
+  width: 90%;
+}
+div.social-media {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+div.social-media i {
+  background-color: rgb(240, 231, 231);
+  padding: 20px;
+}
+div.image-container2 {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 50px;
+}
+div.image2 {
+  width: 50%;
+  height: 600px;
+  width: 500px-;
+}
+div.image2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
