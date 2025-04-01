@@ -653,3 +653,263 @@ div.vitae-content h3 {
   background-color: transparent;
   font-size: 16px;
 }
+/* services */
+.aboutus2 {
+  background: url("/assets/accountan4-section-bg2.webp");
+  background-color: var(--primary-color);
+  background-position: 10%;
+  height: 600px;
+  width: 50%;
+  position: relative;
+}
+.aboutus2::after {
+  content: "";
+  width: 100%;
+  background: url("/assets/accountan4-services-bg1.webp");
+  height: 600px;
+  background-position: left;
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+.about-flex1 {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.about-flex1 p {
+  color: white;
+  font-size: 24px;
+  width: 50%;
+}
+.about-flex1 h3 {
+  font-size: 40px;
+  width: 50%;
+  line-height: 55px;
+  color: white;
+}
+.subheader-icon {
+  position: absolute;
+  bottom: -32px;
+  left: 173px;
+}
+
+/* service second page */
+.service-second {
+  padding: 125px 0 50px 0;
+}
+.service-second h3 {
+  font-size: 26px;
+  width: 75%;
+}
+.service-second h3 span {
+  color: var(--primary-color);
+}
+ul.service-second-content {
+  display: flex;
+  width: 100%;
+  gap: 90px;
+  flex-wrap: wrap;
+  margin: 120px 0 100px 40px;
+}
+ul.service-second-content li {
+  width: 45%;
+}
+ul.service-second-content h4 {
+  font-size: 18px;
+}
+ul.service-second-content p {
+  width: 80%;
+  font-size: 15px;
+  margin-top: 10px;
+  color: var(--text-light-color);
+}
+/* services third */
+section.service-third {
+  background-color: hsl(197.14deg 24.14% 94.31%);
+}
+.service-third-content {
+  padding: 50px 0 25px 0;
+}
+.service-third-content h4 {
+  font-size: 32px;
+  line-height: 40px;
+}
+.service-third-content h4 span {
+  color: var(--primary-color);
+  display: block;
+}
+.service-wrapper1 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-left: 250px;
+  gap: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  position: relative;
+  width: 80%;
+  margin: 50px auto;
+}
+.service-image {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.service-image h5 {
+  font-size: 22px;
+}
+.service-image img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 24px;
+  right: 50px;
+}
+div.business p {
+  width: 60%;
+  font-size: 14px;
+
+  color: var(--text-light-color);
+}
+div.business p:last-of-type {
+  margin-top: 20px;
+}
+div.founder h6 {
+  font-size: 20px;
+  line-height: 24px;
+}
+div.founder p {
+  color: var(--text-light-color);
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+.service-position {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  position: absolute;
+  top: 59px;
+  left: -100px;
+}
+
+.service-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-left: 250px;
+  gap: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+/* service fourth */
+.services-fourth {
+  background: url("/assets/accountan4-services-section-bg.webp");
+  height: 700px;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+section.experts1 {
+  display: flex;
+  margin-top: 150px;
+  gap: 50px;
+  margin-bottom: 130px;
+  flex-direction: row-reverse;
+}
+.experts1 img {
+  width: 50%;
+}
+.expert-descriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.expert-descriptions h4 {
+  margin-top: 20px;
+  font-size: 28px;
+  width: 80%;
+}
+.expert-descriptions h4 span {
+  color: var(--primary-color);
+}
+.expert-descriptions p {
+  line-height: 25px;
+  width: 90%;
+  color: var(--text-light-color);
+}
+.expert-descriptions button.read-more {
+  width: max-content;
+  margin-top: 40px;
+  font-size: 15px;
+  font-weight: 600;
+}
+section.cards {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+div.personal {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  border-radius: 10px;
+}
+.personal h4 {
+  padding-top: 40px;
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+}
+.personal p {
+  color: white;
+  font-size: 14px;
+}
+.personal em {
+  font-size: 36px;
+  font-style: normal;
+  color: white;
+}
+div.business-card {
+  background-color: rgb(49 49 51);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  border-radius: 10px;
+}
+.business-card h4 {
+  padding-top: 40px;
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+}
+.business-card p {
+  color: white;
+  font-size: 14px;
+}
+.business-card em {
+  font-size: 36px;
+  font-style: normal;
+  color: white;
+}
+.option {
+  margin-bottom: 40px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+}
