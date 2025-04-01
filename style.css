@@ -915,10 +915,14 @@ div.business-card {
   background-color: transparent;
   border: 2px solid white;
 }
-.faq-first {
+section.faq {
   background: url(/assets/accountan4-section-bg2.webp);
-  /* background-color: var(--primary-color); */
   background-color: rgb(230 47 67);
+  /* background-color: var(--primary-color); */
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+.faq-first {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -956,4 +960,53 @@ div.business-card {
 }
 .faq-first-content span {
   color: black;
+}
+ul.faq-cards-row {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  margin-top: 100px;
+}
+.down-arrow {
+  position: absolute;
+  top: -130px;
+}
+ul.faq-cards-row li {
+  display: flex;
+  padding-bottom: 50px;
+  margin-bottom: 80px;
+  border-radius: 10px;
+  align-items: center;
+  /* justify-content: center; */
+  /* gap: 50px; */
+  flex-direction: column;
+  background-color: rgb(242 55 75);
+}
+ul.faq-cards-row li img {
+  width: 50px;
+  height: 50px;
+}
+ul.faq-cards-row li h4 {
+  font-size: 46px;
+  color: white;
+  margin-top: 30px;
+}
+ul.faq-cards-row li p {
+  color: white;
+  text-align: center;
+  margin: 70px 0 20px 0;
+  width: 65%;
+}
+.afters {
+  height: 500px;
+  width: 500px;
+  background: url(/assets/accountan4-faq-pic2.webp);
+  background-color: rgb(238 242 245);
+  background-position: 90% 90%;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+.afters img {
+  height: 100%;
+  width: 100%;
 }
