@@ -909,7 +909,51 @@ div.business-card {
 }
 .option {
   margin-bottom: 40px;
+  width: max-content;
   color: white;
+  padding: 15px 35px;
   background-color: transparent;
   border: 2px solid white;
+}
+.faq-first {
+  background: url(/assets/accountan4-section-bg2.webp);
+  /* background-color: var(--primary-color); */
+  background-color: rgb(230 47 67);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-size: contain;
+  background-position: left;
+}
+.faq-image {
+  width: 50%;
+  margin-left: auto;
+}
+.faq-image img {
+  width: 100%;
+}
+.faq-first-content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 200px;
+  justify-content: center;
+  gap: 40px;
+  width: 40%;
+}
+.faq-first-content p {
+  color: white;
+  font-size: 22px;
+  text-align: left;
+  font-weight: 700;
+}
+.faq-first-content h4 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+
+  width: 100%;
+}
+.faq-first-content span {
+  color: black;
 }
