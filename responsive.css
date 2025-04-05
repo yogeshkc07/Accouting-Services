@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1200px) {
+  .hero-image {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .hero-container {
+    width: 76%;
+  }
+  main {
+    height: 850px;
+  }
+  .experience {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  div.two-customers {
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  div.two-customers {
+    flex-direction: column;
+  }
+  main {
+    height: 1050px;
+  }
+  div.border {
+    top: 52%;
+  }
+  .experienceUl {
+    flex-direction: column;
+  }
+
+  section.experts {
+    flex-direction: column;
+  }
+  .proin h3 {
+    width: 69%;
+  }
+  ul.three-flex {
+    flex-direction: column;
+  }
+  div.account-flex {
+    flex-direction: column;
+  }
+  section.accountants {
+    height: 849px;
+  }
+  .footer-flex {
+    flex-direction: column;
+  }
+  .footer-middle p,
+  .footer-right p {
+    line-height: 20px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  div.hero h2 {
+    font-size: 40px;
+  }
+  .border {
+    display: none;
+  }
+  main {
+    height: 950px;
+  }
+  footer {
+    height: auto;
+  }
+  .footer-right {
+    width: 50%;
+  }
+  div.accountant-description {
+    width: 90%;
+  }
+  .navbar {
+    display: none;
+  }
+  div.container1 {
+    padding-left: 50px;
+  }
+  .flex-four ul {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .flex-four li:first-child {
+    width: 80%;
+    margin-top: 40px;
+  }
+  .flex-four li {
+    flex-direction: column;
+    border: none;
+  }
+}

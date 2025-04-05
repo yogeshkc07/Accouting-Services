@@ -1119,3 +1119,117 @@ ul.faq-cards-row li p {
   top: 0;
   left: 100%;
 }
+section.contact-second {
+  background: hsl(197.14deg 24.14% 94.31%);
+}
+div.contact-second-description {
+  gap: 30px;
+  display: flex;
+  padding: 120px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+div.contact-second-description img {
+  width: 350px;
+}
+div.csd-left h3 {
+  font-size: 32px;
+  line-height: 40px;
+  width: 80%;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+div.csd-left p {
+  font-size: 15px;
+  width: 60%;
+  color: var(--text-light-color);
+}
+div.csd-middle,
+div.csd-right {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 10px;
+}
+div.csd-middle h4,
+div.csd-right h4 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+div.csd-text p {
+  color: var(--primary-color);
+  margin-left: 20px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+div.csd-text h5 {
+  color: var(--primary-color);
+  margin-left: 20px;
+  font-size: 20px;
+}
+div.ct-container {
+  display: flex;
+  margin: 100px;
+  gap: 50px;
+}
+div.ct-left {
+  display: flex;
+  gap: 30px;
+  width: 50%;
+  align-items: center;
+  margin-top: 100px;
+}
+div.ct-left-content h3 {
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+div.ct-left-content h4 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 10px 0 30px 0;
+}
+div.ct-left-content p {
+  color: var(--text-light-color);
+  font-weight: 300;
+}
+div.ct-right {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+div.ct-right h6 {
+  font-size: 30px;
+  font-weight: 600;
+  width: 60%;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+div.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  width: 45%;
+  border: none;
+  height: 60px;
+  background-color: hsl(197.14deg 24.14% 94.31%);
+  padding: 10px;
+}
+input#subject {
+  width: 90%;
+}
+textarea {
+  background-color: hsl(197.14deg 24.14% 94.31%);
+  border: none;
+  height: 240px;
+  width: 90%;
+  padding: 10px;
+}
+.btn-msg {
+  width: 90%;
+}
