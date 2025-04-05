@@ -13,6 +13,7 @@
   font-size: 12px;
   font-weight: bold;
   border: 3px solid var(--primary-color);
+  transition: all 0.2s ease-in;
 }
 /* .btn-secondary {
   color: white;

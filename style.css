@@ -15,6 +15,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px 30px 20px 0px;
+  position: relative;
 }
 div.logo img {
   width: 120px;
@@ -412,6 +413,11 @@ button.consultation {
   width: max-content;
   background-color: transparent;
   font-size: 16px;
+  transition: all 0.1s ease-in;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: var(--primary-color);
 }
 .footer-content p {
   color: var(--text-light-color);
@@ -1284,4 +1290,32 @@ textarea {
   to {
     transform: rotate(-45deg) translate(4px, -9px);
   }
+}
+.mobileNav {
+  width: 200px;
+  display: none;
+  flex-direction: column;
+
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  right: -160px;
+  background-color: white;
+  z-index: 40;
+  transition: all 1s ease-in-out;
+}
+.mobileNav a {
+  color: black;
+}
+.mobileNav li {
+  margin-top: 40px;
+}
+.mobileNav a:hover {
+  text-decoration: underline;
+}
+.openMobileNav {
+  transform: translateX(-160px);
+  display: flex;
 }

@@ -31,22 +31,29 @@
   }
   .experienceUl {
     flex-direction: column;
+    margin-top: 50px;
   }
 
   section.experts {
     flex-direction: column;
+    margin-top: 50px;
   }
   .proin h3 {
     width: 69%;
   }
   ul.three-flex {
     flex-direction: column;
+    align-items: center;
+  }
+  ul.three-flex li {
+    width: 90%;
   }
   div.account-flex {
     flex-direction: column;
+    gap: 90px;
   }
   section.accountants {
-    height: 849px;
+    height: 769px;
   }
   .footer-flex {
     flex-direction: column;
@@ -64,6 +71,9 @@
     justify-content: center;
     flex-direction: column;
   }
+  .proin h3 {
+    font-size: 35px;
+  }
 }
 @media only screen and (max-width: 760px) {
   div.hero h2 {
@@ -75,14 +85,29 @@
   main {
     height: 950px;
   }
+  div.two-customers {
+    padding-right: 1px;
+  }
   footer {
     height: auto;
+  }
+  .footer-content h3 {
+    font-size: 26px;
   }
   .footer-right {
     width: 50%;
   }
+  .footer-content h4 {
+    font-size: 19px;
+  }
   div.accountant-description {
     width: 90%;
+  }
+  .footer-flex {
+    margin-top: 80px;
+  }
+  div.footer {
+    margin-top: 80px;
   }
 
   div.container1 {
@@ -92,13 +117,25 @@
     flex-wrap: nowrap;
     flex-direction: column;
     gap: 20px;
+    height: 600px;
   }
   .flex-four li:first-child {
     width: 80%;
     margin-top: 40px;
   }
-  .flex-four li {
-    flex-direction: column;
-    border: none;
+  ul.three-flex {
+    align-items: center;
+  }
+  .experts img {
+    width: 100%;
+  }
+  .experience-description h3 {
+    font-size: 30px;
+    line-height: 55px;
+  }
+  .footer-left,
+  .footer-middle,
+  .footer-right {
+    width: 100%;
   }
 }
