@@ -55,6 +55,15 @@
   .footer-right p {
     line-height: 20px;
   }
+  .navbar {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 @media only screen and (max-width: 760px) {
   div.hero h2 {
@@ -75,9 +84,7 @@
   div.accountant-description {
     width: 90%;
   }
-  .navbar {
-    display: none;
-  }
+
   div.container1 {
     padding-left: 50px;
   }
