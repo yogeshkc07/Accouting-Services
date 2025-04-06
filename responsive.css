@@ -167,4 +167,8 @@
   div.image-content {
     width: 100%;
   }
+  div.image2,
+  div.image1 {
+    width: 100%;
+  }
 }
