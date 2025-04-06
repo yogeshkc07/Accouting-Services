@@ -149,4 +149,13 @@
     align-items: center;
     justify-content: center;
   }
+  .about-second-left,
+  .about-second-right {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .experts img {
+    width: 100%;
+  }
 }
