@@ -140,3 +140,13 @@
   }
 }
 /* aboutus */
+@media only screen and (max-width: 850px) {
+  .aboutus {
+    width: 100%;
+  }
+  .about-second {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
