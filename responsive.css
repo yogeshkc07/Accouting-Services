@@ -171,4 +171,21 @@
   div.image1 {
     width: 100%;
   }
+  section.our-values {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  div.our-values-container ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutus::after {
+    width: 0;
+  }
+  .about-flex h3 {
+    width: 100%;
+  }
 }
+/* services */
+@media only screen and (max-width: 850px) {
