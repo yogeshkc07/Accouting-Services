@@ -255,6 +255,10 @@
   .faq-image1 {
     width: 0;
   }
+  div.about-accountants .image1 {
+    height: 600px;
+    width: 401px;
+  }
   ul.faq-cards-row {
     flex-direction: column;
   }
