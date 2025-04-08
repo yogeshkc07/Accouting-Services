@@ -189,4 +189,22 @@
 }
 /* services */
 @media only screen and (max-width: 850px) {
+  .aboutus2 {
+    width: 100%;
+  }
+  .service-second {
+    padding: 55px 20px 50px 20px;
+  }
+  .service-second h3 {
+    width: 100%;
+  }
+  ul.service-second-content li {
+    width: 100%;
+  }
+  ul.service-second-content {
+    margin: 50px;
+  }
+  .service-third-content {
+    padding: 50px;
+  }
 }
