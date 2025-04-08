@@ -267,4 +267,32 @@
   .questions {
     margin-top: 0;
   }
+  section.faq {
+    background-size: 100%;
+  }
+  .faq-first-content {
+    padding-left: 40px;
+  }
+  .down-arrow {
+    top: -90px;
+  }
+}
+/* contact */
+@media only screen and (max-width: 850px) {
+  .aboutus3 {
+    width: 100%;
+  }
+  .aboutus3::after {
+    width: 0;
+  }
+  div.contact-second-description {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  div.csd-left h3 {
+    width: 100%;
+  }
+  div.csd-left p {
+    width: 100%;
+  }
 }
