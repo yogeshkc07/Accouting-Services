@@ -55,7 +55,7 @@ nav.navbar ul a {
 }
 .navbar a.active::before {
   content: "";
-  background-image: url(/assets/accountan4-contact-icon1.svg);
+  background-image: url(../assets/accountan4-contact-icon1.svg);
   background-repeat: no-repeat;
   top: -163%;
   position: absolute;
@@ -67,7 +67,7 @@ nav.navbar ul a {
 main {
   height: 941px;
   position: relative;
-  background: url("/assets/accountan4-section-bg1.png");
+  background: url("../assets/accountan4-section-bg1.png");
   background-size: contain, contain;
   /* background-position: 100% 99px; */
   background-repeat: no-repeat;
@@ -242,7 +242,7 @@ section.experts {
 }
 section.ullamcorper {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/assets/accountan4-about-bg.webp");
+    url("../assets/accountan4-about-bg.webp");
   width: 100%;
   height: 700px;
   background-repeat: no-repeat;
@@ -332,7 +332,7 @@ ul.three-flex p:last-of-type {
 }
 section.accountants {
   height: 700px;
-  background: url("/assets/accountan4-section-bg2.webp");
+  background: url("../assets/accountan4-section-bg2.webp");
   background-color: var(--primary-color);
   background-size: contain;
   background-repeat: no-repeat;
@@ -484,7 +484,7 @@ div.footer {
 }
 /* about us */
 .aboutus {
-  background: url("/assets/accountan4-section-bg2.webp");
+  background: url("../assets/accountan4-section-bg2.webp");
   background-color: var(--primary-color);
   background-position: 10%;
   height: 600px;
@@ -494,7 +494,7 @@ div.footer {
 .aboutus::after {
   content: "";
   width: 100%;
-  background: url("/assets/accountan4-about-bg.webp");
+  background: url("../assets/accountan4-about-bg.webp");
   height: 600px;
   background-position: right;
   position: absolute;
@@ -634,7 +634,7 @@ div.image2 img {
 }
 /* our values */
 section.our-values {
-  background: url(/assets/accountan4-section-bg2.webp);
+  background: url(../assets/accountan4-section-bg2.webp);
   background-color: var(--primary-color);
   background-position: center;
   height: 500px;
@@ -675,7 +675,7 @@ div.our-values-container ul li p {
 section.vitae {
   height: 650px;
 
-  background: url(/assets/accountan4-about-bg2.webp);
+  background: url(../assets/accountan4-about-bg2.webp);
   background-size: cover;
 }
 div.vitae-content {
@@ -699,7 +699,7 @@ div.vitae-content h3 {
 }
 /* services */
 .aboutus2 {
-  background: url("/assets/accountan4-section-bg2.webp");
+  background: url("../assets/accountan4-section-bg2.webp");
   background-color: var(--primary-color);
   background-position: 10%;
   height: 600px;
@@ -709,7 +709,7 @@ div.vitae-content h3 {
 .aboutus2::after {
   content: "";
   width: 100%;
-  background: url("/assets/accountan4-services-bg1.webp");
+  background: url("../assets/accountan4-services-bg1.webp");
   height: 600px;
   background-position: left;
   position: absolute;
@@ -856,7 +856,7 @@ div.founder p {
 }
 /* service fourth */
 .services-fourth {
-  background: url("/assets/accountan4-services-section-bg.webp");
+  background: url("../assets/accountan4-services-section-bg.webp");
   height: 700px;
   background-size: cover;
   margin-bottom: 100px;
@@ -960,7 +960,7 @@ div.business-card {
   border: 2px solid white;
 }
 section.faq {
-  background: url(/assets/accountan4-section-bg2.webp);
+  background: url(../assets/accountan4-section-bg2.webp);
   background-color: rgb(230 47 67);
   /* background-color: var(--primary-color); */
   background-size: 60%;
@@ -1108,7 +1108,7 @@ ul.faq-cards-row li p {
 }
 /* contact */
 .aboutus3 {
-  background: url("/assets/accountan4-section-bg2.webp");
+  background: url("../assets/accountan4-section-bg2.webp");
   background-color: var(--primary-color);
   background-position: 10%;
   height: 600px;
@@ -1118,7 +1118,7 @@ ul.faq-cards-row li p {
 .aboutus3::after {
   content: "";
   width: 100%;
-  background: url("/assets/accountant4-contact-pic1.webp");
+  background: url("../assets/accountant4-contact-pic1.webp");
   height: 600px;
   background-position: left;
   position: absolute;
