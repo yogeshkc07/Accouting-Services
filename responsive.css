@@ -238,4 +238,11 @@
   .experts1 img {
     width: 100%;
   }
+  section.cards {
+    flex-direction: column;
+  }
+  div.personal,
+  div.business-card {
+    width: 100%;
+  }
 }
