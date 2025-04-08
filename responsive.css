@@ -192,6 +192,9 @@
   .aboutus2 {
     width: 100%;
   }
+  .aboutus2::after {
+    width: 0%;
+  }
   .service-second {
     padding: 55px 20px 50px 20px;
   }
@@ -202,9 +205,31 @@
     width: 100%;
   }
   ul.service-second-content {
-    margin: 50px;
+    margin: 30px;
   }
   .service-third-content {
     padding: 50px;
+  }
+  ul.service-second-content {
+    gap: 40px;
+  }
+  .service-wrapper1 {
+    padding: 20px;
+  }
+  .service-position {
+    position: static;
+  }
+  .service-image img {
+    top: -20px;
+  }
+  div.business p {
+    width: 100%;
+  }
+  .service-wrapper2 {
+    padding: 20px;
+  }
+  .services-fourth {
+    height: 500px;
+    background-position: center;
   }
 }
