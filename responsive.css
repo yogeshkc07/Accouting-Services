@@ -258,4 +258,13 @@
   ul.faq-cards-row {
     flex-direction: column;
   }
+  .faq-question {
+    flex-direction: column;
+  }
+  .afters {
+    width: 100%;
+  }
+  .questions {
+    margin-top: 0;
+  }
 }
