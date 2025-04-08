@@ -1118,7 +1118,7 @@ ul.faq-cards-row li p {
 .aboutus3::after {
   content: "";
   width: 100%;
-  background: url("../assets/accountant4-contact-pic1.webp");
+  background: url("./assets/accountant4-contact-pic1.webp");
   height: 600px;
   background-position: left;
   position: absolute;
