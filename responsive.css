@@ -232,4 +232,10 @@
     height: 500px;
     background-position: center;
   }
+  section.experts1 {
+    flex-direction: column;
+  }
+  .experts1 img {
+    width: 100%;
+  }
 }
