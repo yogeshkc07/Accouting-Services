@@ -246,3 +246,16 @@
     width: 100%;
   }
 }
+/* faq  */
+@media only screen and (max-width: 850px) {
+  .faq-first-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .faq-image1 {
+    width: 0;
+  }
+  ul.faq-cards-row {
+    flex-direction: column;
+  }
+}
