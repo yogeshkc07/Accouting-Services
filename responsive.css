@@ -311,4 +311,16 @@
     width: 100%;
     text-align: center;
   }
+  input {
+    width: 49%;
+  }
+  input#subject {
+    width: 98%;
+  }
+  textarea {
+    width: 98%;
+  }
+  .btn-msg {
+    width: 98%;
+  }
 }
