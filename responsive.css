@@ -191,13 +191,18 @@
 @media only screen and (max-width: 850px) {
   .aboutus2 {
     width: 100%;
+    margin-bottom: 60px;
   }
   .aboutus2::after {
     width: 0%;
   }
   .service-second {
-    padding: 55px 20px 50px 20px;
+    padding: 0;
   }
+  ul.service-second-content {
+    width: 90%;
+  }
+
   .service-second h3 {
     width: 100%;
   }
